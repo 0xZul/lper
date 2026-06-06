@@ -1,27 +1,20 @@
 /**
  * Meteora.js — Modular AI Tools for Meteora DLMM (Solana)
  *
- * Fetch-based, no SDK dependencies. All functions return plain objects.
+ * Pure Meteora API wrappers — fetch-based, no SDK dependencies.
  *
  * === USAGE ===
- *   import { getPoolInfo, searchPools, getOpenPositions, discoverPools, getPoolPnl } from "./meteora.js";
+ *   import { discoverPools, getPoolDetail, getPoolInfo, searchPools, getPoolPnl, getOpenPositions } from "./meteora.js";
  *
  * === ENDPOINTS ===
  *   Pool Discovery API   → https://pool-discovery-api.datapi.meteora.ag
  *   DLMM Data API        → https://dlmm.datapi.meteora.ag
- *   Jupiter API          → https://datapi.jup.ag/v1
- *   Jupiter Price API    → https://api.jup.ag/price/v3
- *   Helius (optional)    → https://api.helius.xyz
  */
 
 // ─── Configuration ─────────────────────────────────────────────
-// Override via environment or direct assignment
 const CONFIG = {
   poolDiscoveryBase: process.env.METEORA_POOL_DISCOVERY_BASE || "https://pool-discovery-api.datapi.meteora.ag",
   dlmmDataBase: process.env.METEORA_DLMM_BASE || "https://dlmm.datapi.meteora.ag",
-  jupDataBase: process.env.METEORA_JUP_BASE || "https://datapi.jup.ag/v1",
-  jupPriceBase: process.env.METEORA_JUP_PRICE_BASE || "https://api.jup.ag/price/v3",
-  heliusKey: process.env.HELIUS_API_KEY || null,
 };
 
 // ─── Helpers ───────────────────────────────────────────────────
@@ -295,75 +288,7 @@ export async function getOpenPositions(walletAddress) {
 }
 
 // ════════════════════════════════════════════════════════════════
-//  3. JUPITER DATA API
-//  Base: https://datapi.jup.ag/v1
-// ════════════════════════════════════════════════════════════════
-
-/**
- * Search Jupiter assets (tokens) by symbol or mint.
- *
- * GET /assets/search?query=...
- *
- * @param {string} query  - Symbol or mint address
- * @returns {Promise<Array>}
- */
-export async function searchAssets(query) {
-  const data = await fetchJson(`${CONFIG.jupDataBase}/assets/search?query=${encodeURIComponent(query)}`);
-  return Array.isArray(data) ? data : [data];
-}
-
-// ════════════════════════════════════════════════════════════════
-//  4. JUPITER PRICE API
-//  Base: https://api.jup.ag/price/v3
-// ════════════════════════════════════════════════════════════════
-
-/**
- * Get token prices from Jupiter price API.
- *
- * @param {string|string[]} mints  - One or more mint addresses
- * @returns {Promise<Object>}  - { [mint]: { price, confidence, usdChange24h } }
- */
-export async function getTokenPrices(mints) {
-  const ids = Array.isArray(mints) ? mints.join(",") : mints;
-  const data = await fetchJson(`${CONFIG.jupPriceBase}?ids=${encodeURIComponent(ids)}`);
-  return data?.data || {};
-}
-
-// ════════════════════════════════════════════════════════════════
-//  5. WALLET / BALANCE (Helius or RPC)
-// ════════════════════════════════════════════════════════════════
-
-/**
- * Get SOL and token balances for a wallet via Helius.
- *
- * GET /v1/wallet/{address}/balances
- *
- * @param {string} walletAddress
- * @param {Object} [opts]
- * @param {string} [opts.heliusApiKey]  - Falls back to HELIUS_API_KEY env
- * @returns {Promise<{ sol: number, tokens: Array }>}
- */
-export async function getWalletBalances(walletAddress, opts = {}) {
-  const key = opts.heliusApiKey || CONFIG.heliusKey;
-  if (!key) throw new Error("Helius API key required — set HELIUS_API_KEY or pass opts.heliusApiKey");
-
-  const url = `https://api.helius.xyz/v1/wallet/${walletAddress}/balances?api-key=${key}`;
-  const data = await fetchJson(url);
-
-  return {
-    sol: numeric(data?.solana_balance ?? 0) / 1e9,
-    tokens: (data?.tokens || []).map((t) => ({
-      mint: t.mint,
-      symbol: t.symbol,
-      amount: numeric(t.amount) / Math.pow(10, t.decimals || 0),
-      decimals: t.decimals,
-      usd_value: numeric(t.usd_value),
-    })),
-  };
-}
-
-// ════════════════════════════════════════════════════════════════
-//  6. PVP / RIVAL DETECTION
+//  3. PVP / RIVAL DETECTION
 // ════════════════════════════════════════════════════════════════
 
 /**
@@ -380,7 +305,17 @@ export async function getWalletBalances(walletAddress, opts = {}) {
  */
 export async function findPvpRivals(symbol, ownMint, opts = {}) {
   const { minTvl = 5_000, minHolders = 500, minFeesSol = 30 } = opts;
-  const assets = await searchAssets(symbol);
+
+  // Fetch rival assets with same symbol from Jupiter
+  let assets = [];
+  try {
+    const res = await fetch(`https://datapi.jup.ag/v1/assets/search?query=${encodeURIComponent(symbol)}`);
+    if (res.ok) {
+      const data = await res.json();
+      assets = Array.isArray(data) ? data : [data];
+    }
+  } catch { /* skip */ }
+
   const rivals = [];
 
   const normSymbol = String(symbol || "").trim().toUpperCase();
@@ -425,7 +360,7 @@ export async function findPvpRivals(symbol, ownMint, opts = {}) {
 }
 
 // ════════════════════════════════════════════════════════════════
-//  7. NORMALIZATION
+//  4. NORMALIZATION
 // ════════════════════════════════════════════════════════════════
 
 function normalizePool(pool) {
@@ -483,7 +418,7 @@ function normalizePool(pool) {
 }
 
 // ════════════════════════════════════════════════════════════════
-//  8. UTILITY
+//  5. UTILITY
 // ════════════════════════════════════════════════════════════════
 
 /**
