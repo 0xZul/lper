@@ -53,6 +53,13 @@ export const config = {
     intervalSeconds: user.monitor?.intervalSeconds ?? 60,
     dryRun: user.monitor?.dryRun ?? (process.env.DRY_RUN === "true"),
   },
+
+  // Telegram
+  telegram: {
+    token: process.env.TELEGRAM_BOT_TOKEN || user.telegram?.token || "",
+    chatId: process.env.TELEGRAM_CHAT_ID || String(user.telegram?.chatId || ""),
+    statusIntervalMinutes: user.telegram?.statusIntervalMinutes ?? 10,
+  },
 };
 
 // Validate required

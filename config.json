@@ -13,5 +13,8 @@
   "monitor": {
     "intervalSeconds": 60,
     "dryRun": false
+  },
+  "telegram": {
+    "statusIntervalMinutes": 10
   }
 }
