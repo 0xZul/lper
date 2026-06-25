@@ -1,0 +1,17 @@
+{
+  "stopLoss": {
+    "pnlPct": -10
+  },
+  "takeProfit": {
+    "rsiPeriod": 2,
+    "rsiOverbought": 90,
+    "rsiTimeframe": "1h"
+  },
+  "oorBelow": {
+    "enabled": true
+  },
+  "monitor": {
+    "intervalSeconds": 60,
+    "dryRun": false
+  }
+}
