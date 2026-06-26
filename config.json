@@ -5,7 +5,8 @@
   "takeProfit": {
     "rsiPeriod": 2,
     "rsiOverbought": 90,
-    "rsiTimeframe": "1h"
+    "rsiTimeframe": "1h",
+    "minPnlPct": 1
   },
   "oorBelow": {
     "enabled": true

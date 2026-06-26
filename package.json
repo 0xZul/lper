@@ -4,10 +4,12 @@
   "description": "Standalone TP/SL monitor for Meteora DLMM positions with Telegram integration",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "patch": "node scripts/patch-anchor.js",
+    "postinstall": "node scripts/patch-anchor.js"
   },
   "dependencies": {
-    "@meteora-ag/dlmm": "latest",
+    "@meteora-ag/dlmm": "^1.9.10",
     "@solana/web3.js": "^1.98.0",
     "bn.js": "^5.2.1",
     "bs58": "^6.0.0",

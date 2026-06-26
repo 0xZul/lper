@@ -54,7 +54,21 @@ export async function checkRSI(mint) {
 
   try {
     const fromMs = Date.now() - 24 * 60 * 60 * 1000; // 24h of 1h candles
-    const data = await gmgn().getTokenKline("sol", mint, rsiTimeframe, fromMs);
+
+    // Retry up to 3 times for transient GMGN failures
+    let data;
+    let lastErr;
+    for (let attempt = 0; attempt < 3; attempt++) {
+      try {
+        data = await gmgn().getTokenKline("sol", mint, rsiTimeframe, fromMs);
+        break;
+      } catch (e) {
+        lastErr = e;
+        if (attempt < 2) await new Promise(r => setTimeout(r, 2000));
+      }
+    }
+    if (!data) throw lastErr || new Error("GMGN: no data after retries");
+
     const bars = data?.list;
 
     if (!bars || bars.length < 6) {
@@ -75,6 +89,7 @@ export async function checkRSI(mint) {
 
     return { triggered: false, reason: `ok (${rsi.toFixed(1)})`, rsi: Math.round(rsi * 10) / 10 };
   } catch (err) {
+    console.error(`[tp-sl] RSI check FAILED for ${mint.slice(0,8)}: ${err.message}`);
     return { triggered: false, reason: `error: ${err.message}`, rsi: null };
   }
 }

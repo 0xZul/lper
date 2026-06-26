@@ -15,7 +15,6 @@ import TelegramBot from "node-telegram-bot-api";
 // ─── State ──────────────────────────────────────────────────────
 let _bot = null;
 let _chatId = null;
-let _lastStatusHash = null; // for anti-spam dedup
 let _closeFn = null;        // injected close function
 let _getPositionsFn = null; // injected getPositions function
 
@@ -82,6 +81,12 @@ function classifyCloseReason(reason) {
   return "MANUAL_CLOSE";
 }
 
+// ─── MarkdownV2 escape ──────────────────────────────────────────
+function escapeMD(text) {
+  if (typeof text !== "string") return text;
+  return text.replace(/[_*[\]()~`>#+\-=|{}.!]/g, "\\$&");
+}
+
 // ─── Status message formatter ───────────────────────────────────
 function formatStatusMessage(positions, timestamp) {
   const lines = positions.map((p) => {
@@ -90,30 +95,30 @@ function formatStatusMessage(positions, timestamp) {
     const bar = drawRangeBar(p.lower_bin, p.upper_bin, p.active_bin);
 
     return [
-      `${emoji} **${p.pair}**`,
-      `PnL: ${pnl}`,
-      `Status: ${p.status}`,
-      `Active Bin: ${p.active_bin ?? "?"}`,
+      `${emoji} *${escapeMD(p.pair)}*`,
+      `PnL: ${escapeMD(pnl)}`,
+      `Status: ${escapeMD(p.status)}`,
+      `Active Bin: ${escapeMD(String(p.active_bin ?? "?"))}`,
       "",
       bar,
     ].join("\n");
   });
 
   const timeStr = new Date(timestamp).toISOString().slice(11, 16) + " UTC";
-  return `📊 **Positions** (${timeStr})\n\n${lines.join("\n\n")}`;
+  return `📊 *Positions* \\(${timeStr}\\)\n\n${lines.join("\n\n")}`;
 }
 
 // ─── Close notification formatter ───────────────────────────────
 function formatCloseNotification(data) {
   return [
-    "🔴 **POSITION CLOSED**",
+    "🔴 *POSITION CLOSED*",
     "",
-    `Pair: **${data.pair}**`,
-    `PnL: ${formatPnL(data.pnl_pct)}`,
-    `Reason: ${classifyCloseReason(data.reason)}`,
-    `Range: ${data.lower_bin ?? "?"}–${data.upper_bin ?? "?"}`,
-    `Active Bin: ${data.active_bin ?? "?"}`,
-    `Closed: ${data.timestamp || new Date().toISOString().slice(0, 16).replace("T", " ")} UTC`,
+    `Pair: *${escapeMD(data.pair)}*`,
+    `PnL: ${escapeMD(formatPnL(data.pnl_pct))}`,
+    `Reason: ${escapeMD(classifyCloseReason(data.reason))}`,
+    `Range: ${escapeMD(String(data.lower_bin ?? "?"))}–${escapeMD(String(data.upper_bin ?? "?"))}`,
+    `Active Bin: ${escapeMD(String(data.active_bin ?? "?"))}`,
+    `Closed: ${escapeMD(data.timestamp || new Date().toISOString().slice(0, 16).replace("T", " "))} UTC`,
   ].join("\n");
 }
 
@@ -138,33 +143,31 @@ function formatClosePicker(positions) {
 export async function sendStatus(positions) {
   if (!_bot || !_chatId) return;
 
+  // No positions — send once, then suppress (hash prevents duplicate)
+  if (!positions || positions.length === 0) {
+    try {
+      await _bot.sendMessage(_chatId, "📊 *Positions*\n\n_No open positions_", { parse_mode: "MarkdownV2" });
+      console.log("[telegram] Status: no positions");
+    } catch (err) {
+      console.error(`[telegram] Status send failed: ${err.message}`);
+      try { await _bot.sendMessage(_chatId, "📊 Positions\n\nNo open positions"); } catch {}
+    }
+    return;
+  }
+
   // Compute status for each position
   const enriched = positions.map((p) => {
     let status = "IR";
     if (p.active_bin != null && p.upper_bin != null && p.active_bin > p.upper_bin) {
       status = "AR";
     } else if (p.active_bin != null && p.lower_bin != null && p.active_bin < p.lower_bin) {
-      // Below range — should already be closed. Skip from status.
+      // Below Range — should already be closed. Skip from status.
       status = "BR";
     }
     return { ...p, status };
   }).filter((p) => p.status !== "BR");
 
   if (enriched.length === 0) return;
-
-  // Anti-spam: hash the data, skip if unchanged
-  const hash = JSON.stringify(enriched.map((p) => ({
-    pair: p.pair,
-    pnl: p.pnl_pct?.toFixed(2),
-    active: p.active_bin,
-    status: p.status,
-  })));
-
-  if (hash === _lastStatusHash) {
-    console.log("[telegram] Status unchanged — skipping duplicate notification");
-    return;
-  }
-  _lastStatusHash = hash;
 
   const now = new Date();
   const text = formatStatusMessage(enriched, now);
@@ -259,7 +262,7 @@ export async function handleMessage(msg) {
       const p = positions[idx];
       const reason = "MANUAL_CLOSE";
 
-      const result = await _closeFn(p.position, reason);
+      const result = await _closeFn(p.position, reason, p.pool);
 
       if (result.success || result.dry_run) {
         // Re-fetch to get final PnL

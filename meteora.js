@@ -149,14 +149,14 @@ async function lookupPoolForPosition(positionAddress, walletAddress) {
 }
 
 // ─── Close Position (local SDK path) ────────────────────────────
-export async function closePosition(positionAddress, reason = "") {
+export async function closePosition(positionAddress, reason = "", knownPoolAddress = null) {
   if (config.monitor.dryRun) {
     return { dry_run: true, position: positionAddress, reason };
   }
 
   const wallet = getWallet();
   const walletAddr = wallet.publicKey.toString();
-  const poolAddress = await lookupPoolForPosition(positionAddress, walletAddr);
+  const poolAddress = knownPoolAddress || await lookupPoolForPosition(positionAddress, walletAddr);
 
   const pool = await getPool(poolAddress);
   const positionPubKey = new PublicKey(positionAddress);
@@ -194,7 +194,7 @@ export async function closePosition(positionAddress, reason = "") {
     position: positionPubKey,
     fromBinId: closeFromBinId,
     toBinId: closeToBinId,
-    bps: 10000,
+    bps: new BN(10000),
     shouldClaimAndClose: true,
   });
 

@@ -1,0 +1,575 @@
+════════════════════════════════════════
+  TP/SL Bot — Meteora DLMM Monitor
+════════════════════════════════════════
+  RPC:        https://mainnet.helius-rpc.com...
+  SL:         -10%
+  RSI TP:     > 90 (1h, period 2)
+  OOR below:  on
+  Monitor:    every 60s
+  Telegram:   status every 10m
+  Dry run:    no
+════════════════════════════════════════
+
+[telegram] Bot ready — chat 1389206094
+[telegram] Status sent
+[telegram] Polling for commands every 5s
+
+[2026-06-26T14:46:51.777Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  maxxing/SOL    RSI 75.7 — ok (75.7)
+[tp-sl] Done — checked 1, closed 0
+[tp-sl] Monitoring every 60s
+[tp-sl] Status reports every 10m
+
+
+[2026-06-26T14:47:54.489Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  maxxing/SOL    RSI 77.3 — ok (77.3)
+[tp-sl] Done — checked 1, closed 0
+════════════════════════════════════════
+  TP/SL Bot — Meteora DLMM Monitor
+════════════════════════════════════════
+  RPC:        https://mainnet.helius-rpc.com...
+  SL:         -10%
+  RSI TP:     > 90 (1h, period 2)
+  OOR below:  on
+  Monitor:    every 60s
+  Telegram:   status every 10m
+  Dry run:    no
+════════════════════════════════════════
+
+[telegram] Bot ready — chat 1389206094
+[telegram] Status sent
+[telegram] Polling for commands every 5s
+
+[2026-06-26T14:48:31.917Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  maxxing/SOL    RSI 77.9 — ok (77.9)
+[tp-sl] Done — checked 1, closed 0
+[tp-sl] Monitoring every 60s
+[tp-sl] Status reports every 10m
+
+════════════════════════════════════════
+  TP/SL Bot — Meteora DLMM Monitor
+════════════════════════════════════════
+  RPC:        https://mainnet.helius-rpc.com...
+  SL:         -10%
+  RSI TP:     > 90 (1h, period 2)
+  OOR below:  on
+  Monitor:    every 60s
+  Telegram:   status every 10m
+  Dry run:    no
+════════════════════════════════════════
+
+[telegram] Bot ready — chat 1389206094
+[telegram] Status sent
+[telegram] Polling for commands every 5s
+
+[2026-06-26T14:49:19.125Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  maxxing/SOL    RSI 77.9 — ok (77.9)
+[tp-sl] Done — checked 1, closed 0
+[tp-sl] Monitoring every 60s
+[tp-sl] Status reports every 10m
+
+[telegram] Status: no positions
+
+[2026-06-26T14:50:19.549Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T14:51:19.551Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T14:52:19.554Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T14:53:19.558Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T14:54:19.562Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T14:55:19.567Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T14:56:19.571Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T14:57:19.575Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T14:58:19.579Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T14:59:19.585Z] ── TP/SL check ──
+[tp-sl] No open positions
+[telegram] Status: no positions
+
+[2026-06-26T15:00:19.590Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:01:19.593Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:02:19.599Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:03:19.605Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:04:19.607Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:05:19.610Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:06:19.625Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:07:19.628Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:08:19.632Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:09:19.634Z] ── TP/SL check ──
+[tp-sl] No open positions
+[telegram] Status: no positions
+
+[2026-06-26T15:10:19.638Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:11:19.641Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:12:19.657Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:13:19.661Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:14:19.664Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:15:19.668Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:16:19.670Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:17:19.674Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:18:19.678Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:19:19.680Z] ── TP/SL check ──
+[tp-sl] No open positions
+[telegram] Status: no positions
+
+[2026-06-26T15:20:19.682Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:21:19.685Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:22:19.687Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:23:19.691Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:24:19.696Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:25:19.698Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:26:19.748Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:27:19.752Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:28:19.754Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:29:19.755Z] ── TP/SL check ──
+[tp-sl] No open positions
+[telegram] Status: no positions
+
+[2026-06-26T15:30:19.768Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:31:19.769Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:32:19.771Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:33:19.791Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:34:19.791Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:35:19.791Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:36:19.796Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:37:19.801Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:38:19.806Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:39:19.809Z] ── TP/SL check ──
+[tp-sl] No open positions
+[telegram] Status: no positions
+
+[2026-06-26T15:40:19.814Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:41:19.819Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:42:19.826Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:43:19.832Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:44:19.842Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:45:19.874Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:46:19.878Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:47:19.882Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:48:19.887Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:49:19.890Z] ── TP/SL check ──
+[tp-sl] No open positions
+[telegram] Status: no positions
+
+[2026-06-26T15:50:19.892Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:51:19.897Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:52:19.901Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:53:19.906Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:54:19.910Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:55:19.915Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:56:19.919Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:57:19.923Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:58:19.927Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T15:59:19.930Z] ── TP/SL check ──
+[tp-sl] No open positions
+[telegram] Status: no positions
+
+[2026-06-26T16:00:19.934Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:01:19.941Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:02:19.945Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:03:19.948Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:04:19.952Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:05:19.955Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:06:19.958Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:07:19.961Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:08:19.964Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:09:19.967Z] ── TP/SL check ──
+[tp-sl] No open positions
+[telegram] Status: no positions
+
+[2026-06-26T16:10:19.970Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:11:19.973Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:12:19.976Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:13:19.979Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:14:19.982Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:15:19.985Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:16:19.986Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:17:19.989Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:18:19.992Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:19:19.994Z] ── TP/SL check ──
+[tp-sl] No open positions
+[telegram] Status: no positions
+
+[2026-06-26T16:20:19.995Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:21:19.998Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:22:20.000Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:23:20.002Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:24:20.004Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:25:20.004Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:26:20.007Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:27:20.009Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:28:20.010Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:29:20.012Z] ── TP/SL check ──
+[tp-sl] No open positions
+[telegram] Status: no positions
+
+[2026-06-26T16:30:20.013Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:31:20.014Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:32:20.017Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:33:20.017Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:34:20.019Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:35:20.019Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:36:20.019Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:37:20.021Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:38:20.024Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:39:20.024Z] ── TP/SL check ──
+[tp-sl] No open positions
+[telegram] Status: no positions
+
+[2026-06-26T16:40:20.025Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:41:20.025Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:42:20.026Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:43:20.032Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:44:20.035Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:45:20.040Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:46:20.045Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:47:20.050Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:48:20.055Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:49:20.060Z] ── TP/SL check ──
+[tp-sl] No open positions
+[telegram] Status: no positions
+
+[2026-06-26T16:50:20.065Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:51:20.072Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:52:20.077Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:53:20.081Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:54:20.085Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:55:20.090Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:56:20.095Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:57:20.098Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:58:20.102Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T16:59:20.106Z] ── TP/SL check ──
+[tp-sl] No open positions
+[telegram] Status: no positions
+
+[2026-06-26T17:00:20.111Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T17:01:20.115Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T17:02:20.118Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T17:03:20.123Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T17:04:20.126Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T17:05:20.130Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T17:06:20.133Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T17:07:20.137Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T17:08:20.140Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T17:09:20.143Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  KLED/SOL       RSI 88.6 — ok (88.6)
+[tp-sl] Done — checked 1, closed 0
+[telegram] Status sent
+
+[2026-06-26T17:10:20.151Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  KLED/SOL       RSI 88.6 — ok (88.6)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-26T17:11:20.156Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  KLED/SOL       RSI 83.9 — ok (83.9)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-26T17:12:20.159Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  KLED/SOL       RSI 80.1 — ok (80.1)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-26T17:13:20.163Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+[tp-sl] CLOSE KLED/SOL (FVmuByyF): TP: RSI(2)=99.1 > 90 on 1h
+[tp-sl] Claim warning: No fee to claim
+[tp-sl]   ✓ closed
+[telegram] Close notification: KLED/SOL
+[tp-sl] Done — checked 1, closed 1
+  KLED/SOL: TP: RSI(2)=99.1 > 90 on 1h
+
+[2026-06-26T17:14:20.167Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T17:15:20.169Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T17:16:20.172Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T17:17:20.174Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T17:18:20.176Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-26T17:19:20.178Z] ── TP/SL check ──
+[tp-sl] No open positions
+════════════════════════════════════════
+  TP/SL Bot — Meteora DLMM Monitor
+════════════════════════════════════════
+  RPC:        https://mainnet.helius-rpc.com...
+  SL:         -10%
+  RSI TP:     > 90 (1h, period 2)
+  OOR below:  on
+  Monitor:    every 60s
+  Telegram:   status every 10m
+  Dry run:    no
+════════════════════════════════════════
+
+[telegram] Bot ready — chat 1389206094
+[telegram] Status: no positions
+[telegram] Polling for commands every 5s
+
+[2026-06-26T17:19:54.629Z] ── TP/SL check ──
+[tp-sl] No open positions
+[tp-sl] Monitoring every 60s
+[tp-sl] Status reports every 10m
+
+[telegram] Status: no positions

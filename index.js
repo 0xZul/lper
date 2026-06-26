@@ -51,15 +51,41 @@ if (config.telegram.token && config.telegram.chatId) {
     await sendCloseNotification(data);
   });
 
-  // ── Periodic status (separate from monitor cycle) ────────────
-  let _lastStatusAt = 0;
+  // ── Periodic status (dedicated timer, independent of monitor cycle) ──
 
-  onStatus(async (positions) => {
-    // Throttle: only send status every STATUS_INTERVAL
-    if (Date.now() - _lastStatusAt < STATUS_INTERVAL) return;
-    _lastStatusAt = Date.now();
-    await sendStatus(positions);
-  });
+  async function sendStatusReport() {
+    try {
+      const positions = await getOpenPositions();
+
+      const data = positions.map((p) => {
+        let status = "IR";
+        if (p.active_bin != null && p.upper_bin != null && p.active_bin > p.upper_bin) status = "AR";
+        return { pair: p.pair, pnl_pct: p.pnl_pct, active_bin: p.active_bin, lower_bin: p.lower_bin, upper_bin: p.upper_bin, status };
+      });
+
+      await sendStatus(data);
+    } catch (err) {
+      console.error(`[telegram] Status error: ${err.message}`);
+    }
+  }
+
+  // Fire status on clock-aligned 10-min marks (00, 10, 20, 30, 40, 50)
+  function scheduleNextReport() {
+    const now = new Date();
+    const minutes = now.getMinutes();
+    const next = (Math.floor(minutes / 10) + 1) * 10;
+    const target = new Date(now);
+    target.setMinutes(next, 0, 0, 0);
+    const delay = target.getTime() - now.getTime();
+    return delay;
+  }
+
+  // Immediately fire first report, then align to clock
+  await sendStatusReport();
+  setTimeout(function tickStatus() {
+    sendStatusReport().catch(e => console.error('[telegram] Status error:', e.message));
+    setTimeout(tickStatus, scheduleNextReport());
+  }, scheduleNextReport());
 
   // ── Telegram polling for /close commands ─────────────────────
   // node-telegram-bot-api polling = false, so we poll manually

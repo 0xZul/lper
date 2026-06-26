@@ -104,13 +104,19 @@ export async function runCycle() {
       reasons.push(`OOR below: active bin ${p.active_bin} < lower ${p.lower_bin}`);
     }
 
-    // Check 3: RSI TP (indicator)
+    // Check 3: RSI TP (indicator) — only if PnL >= minPnlPct
     if (reasons.length === 0 && p.base_mint) {
       const rsi = await checkRSI(p.base_mint);
       if (rsi.triggered) {
-        reasons.push(`TP: ${rsi.reason}`);
+        if (p.pnl_pct != null && p.pnl_pct >= config.takeProfit.minPnlPct) {
+          reasons.push(`TP: ${rsi.reason} | PnL ${p.pnl_pct.toFixed(2)}%`);
+        } else {
+          console.log(`  ${p.pair.padEnd(14)} RSI ${rsi.rsi} — skipped (PnL ${p.pnl_pct?.toFixed(2) ?? "?"}% < ${config.takeProfit.minPnlPct}%)`);
+        }
+      } else if (rsi.rsi == null) {
+        console.warn(`[tp-sl] RSI unavailable for ${p.pair}: ${rsi.reason}`);
       } else {
-        console.log(`  ${p.pair.padEnd(14)} RSI ${rsi.rsi ?? "?"} — ${rsi.reason}`);
+        console.log(`  ${p.pair.padEnd(14)} RSI ${rsi.rsi} — ${rsi.reason}`);
       }
     }
 
@@ -126,7 +132,7 @@ export async function runCycle() {
     console.log(`[tp-sl] CLOSE ${p.pair} (${p.position.slice(0, 8)}): ${reason}`);
 
     try {
-      const result = await closePosition(p.position, reason);
+      const result = await closePosition(p.position, reason, p.pool);
       if (result.success || result.dry_run) {
         const closeData = buildCloseData(p, reason);
         closed.push(closeData);

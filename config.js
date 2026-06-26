@@ -36,6 +36,7 @@ export const config = {
     rsiPeriod: user.takeProfit?.rsiPeriod ?? 2,
     rsiOverbought: user.takeProfit?.rsiOverbought ?? 90,
     rsiTimeframe: user.takeProfit?.rsiTimeframe ?? "1h",
+    minPnlPct: user.takeProfit?.minPnlPct ?? 1,
   },
 
   // SL thresholds
