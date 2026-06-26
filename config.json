@@ -6,7 +6,7 @@
     "rsiPeriod": 2,
     "rsiOverbought": 90,
     "rsiTimeframe": "1h",
-    "minPnlPct": 1
+    "minPnlPct": 3
   },
   "oorBelow": {
     "enabled": true
