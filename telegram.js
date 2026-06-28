@@ -11,6 +11,7 @@
  */
 
 import TelegramBot from "node-telegram-bot-api";
+import { autoSwapToSol } from "./swap.js";
 
 // ─── State ──────────────────────────────────────────────────────
 let _bot = null;
@@ -172,6 +173,11 @@ async function closeByIndex(idx) {
         active_bin: p.active_bin,
         timestamp: new Date().toISOString().slice(0, 16).replace("T", " "),
       });
+
+      // Auto-swap base token → SOL
+      if (p.base_mint) {
+        await autoSwapToSol(p.base_mint, p.pair);
+      }
     } else {
       await _bot.sendMessage(_chatId, `❌ Close failed: ${result.error || "unknown"}`);
     }

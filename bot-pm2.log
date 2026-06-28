@@ -21,3 +21,1420 @@
 [tp-sl] Monitoring every 60s
 [tp-sl] Status reports every 10m
 
+
+[2026-06-28T13:02:48.611Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  Jotchua/SOL    RSI 55.5 — ok (55.5)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T13:03:48.611Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  Jotchua/SOL    RSI 55.5 — ok (55.5)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T13:04:48.611Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  Jotchua/SOL    RSI 54.2 — ok (54.2)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T13:05:48.611Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  Jotchua/SOL    RSI 53.8 — ok (53.8)
+[tp-sl] Done — checked 1, closed 0
+[telegram] Close notification: Jotchua/SOL
+
+[2026-06-28T13:06:48.611Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-28T13:07:48.611Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-28T13:08:48.611Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-28T13:09:48.611Z] ── TP/SL check ──
+[tp-sl] No open positions
+[telegram] Status: no positions
+
+[2026-06-28T13:10:48.611Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-28T13:11:48.611Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-28T13:12:48.611Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-28T13:13:48.612Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-28T13:14:48.612Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-28T13:15:48.612Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-28T13:16:48.613Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-28T13:17:48.614Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-28T13:18:48.615Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-28T13:19:48.615Z] ── TP/SL check ──
+[tp-sl] No open positions
+[telegram] Status: no positions
+
+[2026-06-28T13:20:48.617Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-28T13:21:48.618Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-28T13:22:48.619Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-28T13:23:48.619Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-28T13:24:48.620Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-28T13:25:48.621Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-28T13:26:48.626Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-28T13:27:48.626Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-28T13:28:48.627Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-28T13:29:48.631Z] ── TP/SL check ──
+[tp-sl] No open positions
+[telegram] Status: no positions
+
+[2026-06-28T13:30:48.633Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-28T13:31:48.634Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-28T13:32:48.635Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-28T13:33:48.641Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-28T13:34:48.641Z] ── TP/SL check ──
+[tp-sl] No open positions
+
+[2026-06-28T13:35:48.641Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 21.4 — ok (21.4)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T13:36:48.642Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 21.5 — ok (21.5)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T13:37:48.642Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 38.8 — ok (38.8)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T13:38:48.643Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 49.6 — ok (49.6)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T13:39:48.645Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 30.8 — ok (30.8)
+[tp-sl] Done — checked 1, closed 0
+[telegram] Status sent
+
+[2026-06-28T13:40:48.658Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 62 — ok (62.0)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T13:41:48.658Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 78.3 — ok (78.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T13:42:48.659Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 59.3 — ok (59.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T13:43:48.659Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 56.3 — ok (56.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T13:44:48.737Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 73.1 — ok (73.1)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T13:45:48.742Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 70.9 — ok (70.9)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T13:46:48.743Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 71.4 — ok (71.4)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T13:47:48.744Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 73.8 — ok (73.8)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T13:48:48.744Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 78.9 — ok (78.9)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T13:49:48.745Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 83 — ok (83.0)
+[tp-sl] Done — checked 1, closed 0
+[telegram] Status sent
+
+[2026-06-28T13:50:48.746Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 76.7 — ok (76.7)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T13:51:48.747Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 81.2 — ok (81.2)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T13:52:48.748Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 82.2 — ok (82.2)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T13:53:48.748Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 81.1 — ok (81.1)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T13:54:48.749Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 80.6 — ok (80.6)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T13:55:48.753Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 81.6 — ok (81.6)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T13:56:48.757Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 79.4 — ok (79.4)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T13:57:48.756Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 79.4 — ok (79.4)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T13:58:48.759Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 76.4 — ok (76.4)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T13:59:48.760Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 75.6 — ok (75.6)
+[tp-sl] Done — checked 1, closed 0
+[telegram] Status sent
+
+[2026-06-28T14:00:48.760Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 78.7 — ok (78.7)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:01:48.761Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 65.4 — ok (65.4)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:02:48.762Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 57.4 — ok (57.4)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:03:48.762Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 40.5 — ok (40.5)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:04:48.763Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 47.1 — ok (47.1)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:05:48.763Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 49.5 — ok (49.5)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:06:48.764Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 46.1 — ok (46.1)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:07:48.765Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 47.6 — ok (47.6)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:08:48.765Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 43.8 — ok (43.8)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:09:48.766Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 41.8 — ok (41.8)
+[tp-sl] Done — checked 1, closed 0
+[telegram] Status sent
+
+[2026-06-28T14:10:48.767Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 41.9 — ok (41.9)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:11:48.770Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 41.3 — ok (41.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:12:48.770Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 43.7 — ok (43.7)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:13:48.771Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 41 — ok (41.0)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:14:48.771Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 36.2 — ok (36.2)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:15:48.774Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 30.7 — ok (30.7)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:16:48.775Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 29.2 — ok (29.2)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:17:48.779Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 38.3 — ok (38.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:18:48.780Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 40.6 — ok (40.6)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:19:48.781Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 37.5 — ok (37.5)
+[tp-sl] Done — checked 1, closed 0
+[telegram] Status sent
+
+[2026-06-28T14:20:48.781Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 36.5 — ok (36.5)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:21:48.783Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 39.8 — ok (39.8)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:22:48.783Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 40.1 — ok (40.1)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:23:48.784Z] ── TP/SL check ──
+
+[2026-06-28T14:24:48.789Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 39.1 — ok (39.1)
+[tp-sl] Done — checked 1, closed 0
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 36.8 — ok (36.8)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:25:48.790Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 36.8 — ok (36.8)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:26:48.791Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 36 — ok (36.0)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:27:48.791Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 30.8 — ok (30.8)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:28:48.792Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 31 — ok (31.0)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:29:48.793Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 29.2 — ok (29.2)
+[tp-sl] Done — checked 1, closed 0
+[telegram] Status sent
+
+[2026-06-28T14:30:48.794Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 29.4 — ok (29.4)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:31:48.796Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 30 — ok (30.0)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:32:48.795Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 30.8 — ok (30.8)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:33:48.796Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 40.1 — ok (40.1)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:34:48.798Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 38.3 — ok (38.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:35:48.800Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 32.8 — ok (32.8)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:36:48.801Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 32.8 — ok (32.8)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:37:48.803Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 33.1 — ok (33.1)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:38:48.805Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 39.8 — ok (39.8)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:39:48.804Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 38 — ok (38.0)
+[tp-sl] Done — checked 1, closed 0
+[telegram] Status sent
+
+[2026-06-28T14:40:48.940Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 36.5 — ok (36.5)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:41:48.941Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 34.3 — ok (34.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:42:48.941Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 32.6 — ok (32.6)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:43:48.942Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 30.2 — ok (30.2)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:44:48.943Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 29.4 — ok (29.4)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:45:48.943Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 30.1 — ok (30.1)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:46:48.945Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 29 — ok (29.0)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:47:48.948Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 37.3 — ok (37.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:48:48.948Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 36.4 — ok (36.4)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:49:48.948Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 33.7 — ok (33.7)
+[tp-sl] Done — checked 1, closed 0
+[telegram] Status sent
+
+[2026-06-28T14:50:48.948Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 33.8 — ok (33.8)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:51:48.949Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 32.7 — ok (32.7)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:52:48.949Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 33.3 — ok (33.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:53:48.950Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 30.7 — ok (30.7)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:54:48.949Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 28.9 — ok (28.9)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:55:48.950Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 27.3 — ok (27.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:56:48.966Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 26.8 — ok (26.8)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:57:48.968Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 28.4 — ok (28.4)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:58:48.968Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 28 — ok (28.0)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T14:59:48.968Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 27.4 — ok (27.4)
+[tp-sl] Done — checked 1, closed 0
+[telegram] Status sent
+
+[2026-06-28T15:00:48.970Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 23.9 — ok (23.9)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:01:48.971Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 25.8 — ok (25.8)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:02:48.971Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 21.3 — ok (21.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:03:48.971Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 17.3 — ok (17.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:04:48.972Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 18.7 — ok (18.7)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:05:48.974Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 16.2 — ok (16.2)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:06:48.974Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 16.3 — ok (16.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:07:48.976Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 15.3 — ok (15.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:08:48.976Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 17.9 — ok (17.9)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:09:48.976Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 17.6 — ok (17.6)
+[tp-sl] Done — checked 1, closed 0
+[telegram] Status sent
+
+[2026-06-28T15:10:48.977Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 17.9 — ok (17.9)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:11:48.989Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 16.5 — ok (16.5)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:12:48.991Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 14.5 — ok (14.5)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:13:48.990Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 13.9 — ok (13.9)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:14:48.990Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 14.5 — ok (14.5)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:15:48.991Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 14 — ok (14.0)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:16:48.991Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 16.2 — ok (16.2)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:17:48.991Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 15.8 — ok (15.8)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:18:48.991Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 18 — ok (18.0)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:19:48.991Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 17 — ok (17.0)
+[tp-sl] Done — checked 1, closed 0
+[telegram] Status sent
+
+[2026-06-28T15:20:48.993Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 17 — ok (17.0)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:21:48.994Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 17.7 — ok (17.7)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:22:48.994Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 17.5 — ok (17.5)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:23:48.995Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 17.7 — ok (17.7)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:24:48.995Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 16.6 — ok (16.6)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:25:48.996Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 16.6 — ok (16.6)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:26:48.997Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 18.5 — ok (18.5)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:27:48.997Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 18 — ok (18.0)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:28:49.000Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 17.6 — ok (17.6)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:29:49.000Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 19.2 — ok (19.2)
+[tp-sl] Done — checked 1, closed 0
+[telegram] Status sent
+
+[2026-06-28T15:30:49.001Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 17.2 — ok (17.2)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:31:49.003Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 19.9 — ok (19.9)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:32:49.003Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 17.1 — ok (17.1)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:33:49.003Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 19.3 — ok (19.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:34:49.005Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 19 — ok (19.0)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:35:49.005Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 18.7 — ok (18.7)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:36:49.005Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 19.1 — ok (19.1)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:37:49.006Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 19 — ok (19.0)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:38:49.006Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 20.3 — ok (20.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:39:49.006Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 17.7 — ok (17.7)
+[tp-sl] Done — checked 1, closed 0
+[telegram] Status sent
+
+[2026-06-28T15:40:49.007Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 16.2 — ok (16.2)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:41:49.010Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 16.3 — ok (16.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:42:49.012Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 16.3 — ok (16.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:43:49.012Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 15.9 — ok (15.9)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:44:49.015Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 16.9 — ok (16.9)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:45:49.029Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 17.8 — ok (17.8)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:46:49.030Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 18.7 — ok (18.7)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:47:49.031Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 33 — ok (33.0)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:48:49.031Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 24.2 — ok (24.2)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:49:49.031Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 26.8 — ok (26.8)
+[tp-sl] Done — checked 1, closed 0
+[telegram] Status sent
+
+[2026-06-28T15:50:49.031Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 30 — ok (30.0)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:51:49.033Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 31 — ok (31.0)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:52:49.034Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 37.5 — ok (37.5)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:53:49.034Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 46.4 — ok (46.4)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:54:49.034Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 46.2 — ok (46.2)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:55:49.035Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 49.3 — ok (49.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:56:49.036Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 59.3 — ok (59.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:57:49.036Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 62.4 — ok (62.4)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:58:49.036Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 55.1 — ok (55.1)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T15:59:49.038Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 61.5 — ok (61.5)
+[tp-sl] Done — checked 1, closed 0
+[telegram] Status sent
+
+[2026-06-28T16:00:49.038Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 41.4 — ok (41.4)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:01:49.038Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 34.2 — ok (34.2)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:02:49.044Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 33.7 — ok (33.7)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:03:49.046Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 39.8 — ok (39.8)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:04:49.046Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 33.2 — ok (33.2)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:05:49.078Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 36.9 — ok (36.9)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:06:49.078Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 35.1 — ok (35.1)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:07:49.080Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 35.3 — ok (35.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:08:49.081Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 29.2 — ok (29.2)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:09:49.081Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 32.4 — ok (32.4)
+[tp-sl] Done — checked 1, closed 0
+[telegram] Status sent
+
+[2026-06-28T16:10:49.081Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 31.3 — ok (31.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:11:49.081Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 31.1 — ok (31.1)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:12:49.082Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 30.8 — ok (30.8)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:13:49.084Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 30.1 — ok (30.1)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:14:49.086Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 30.8 — ok (30.8)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:15:49.086Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 30 — ok (30.0)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:16:49.086Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 30.5 — ok (30.5)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:17:49.086Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 29.3 — ok (29.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:18:49.088Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 30.1 — ok (30.1)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:19:49.088Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 27.5 — ok (27.5)
+[tp-sl] Done — checked 1, closed 0
+[telegram] Status sent
+
+[2026-06-28T16:20:49.090Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 26.3 — ok (26.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:21:49.091Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 24.2 — ok (24.2)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:22:49.091Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 25 — ok (25.0)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:23:49.092Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 27.1 — ok (27.1)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:24:49.093Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 24.5 — ok (24.5)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:25:49.094Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 25.2 — ok (25.2)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:26:49.100Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 24 — ok (24.0)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:27:49.101Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 23.2 — ok (23.2)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:28:49.101Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 23.6 — ok (23.6)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:29:49.101Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 25.5 — ok (25.5)
+[tp-sl] Done — checked 1, closed 0
+[telegram] Status sent
+
+[2026-06-28T16:30:49.101Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 33.4 — ok (33.4)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:31:49.102Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 31.7 — ok (31.7)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:32:49.103Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 34.6 — ok (34.6)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:33:49.103Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 31.1 — ok (31.1)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:34:49.103Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 30.9 — ok (30.9)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:35:49.104Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 32.9 — ok (32.9)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:36:49.105Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 32.8 — ok (32.8)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:37:49.106Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 31.9 — ok (31.9)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:38:49.106Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 36 — ok (36.0)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:39:49.106Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 43.6 — ok (43.6)
+[tp-sl] Done — checked 1, closed 0
+[telegram] Status sent
+
+[2026-06-28T16:40:49.108Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 38.1 — ok (38.1)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:41:49.107Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 40.8 — ok (40.8)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:42:49.107Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 37.1 — ok (37.1)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:43:49.108Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 32 — ok (32.0)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:44:49.108Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 29.2 — ok (29.2)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:45:49.110Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 30.8 — ok (30.8)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:46:49.148Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 23.7 — ok (23.7)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:47:49.148Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 22.9 — ok (22.9)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:48:49.149Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 28 — ok (28.0)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:49:49.152Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 24.4 — ok (24.4)
+[tp-sl] Done — checked 1, closed 0
+[telegram] Status sent
+
+[2026-06-28T16:50:49.153Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 22.9 — ok (22.9)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:51:49.154Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 22.9 — ok (22.9)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:52:49.154Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 22.9 — ok (22.9)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:53:49.154Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 23.4 — ok (23.4)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:54:49.155Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 24 — ok (24.0)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:55:49.166Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 24.1 — ok (24.1)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:56:49.166Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 24 — ok (24.0)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:57:49.166Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 25.7 — ok (25.7)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:58:49.167Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 26.5 — ok (26.5)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T16:59:49.169Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 26.1 — ok (26.1)
+[tp-sl] Done — checked 1, closed 0
+[telegram] Status sent
+
+[2026-06-28T17:00:49.170Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 25.3 — ok (25.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:01:49.171Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 23.2 — ok (23.2)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:02:49.205Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 19.1 — ok (19.1)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:03:49.205Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 17.7 — ok (17.7)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:04:49.206Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 15.4 — ok (15.4)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:05:49.207Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 18.3 — ok (18.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:06:49.208Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 18.3 — ok (18.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:07:49.211Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 18.2 — ok (18.2)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:08:49.211Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 20.6 — ok (20.6)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:09:49.320Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 20.2 — ok (20.2)
+[tp-sl] Done — checked 1, closed 0
+[telegram] Status sent
+
+[2026-06-28T17:10:49.320Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 21.8 — ok (21.8)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:11:49.320Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 18.4 — ok (18.4)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:12:49.321Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 17.4 — ok (17.4)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:13:49.321Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 16.9 — ok (16.9)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:14:49.322Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 18.3 — ok (18.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:15:49.323Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 18.5 — ok (18.5)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:16:49.324Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 19.9 — ok (19.9)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:17:49.324Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 18.5 — ok (18.5)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:18:49.326Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 18.5 — ok (18.5)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:19:49.326Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 16.4 — ok (16.4)
+[tp-sl] Done — checked 1, closed 0
+[telegram] Status sent
+
+[2026-06-28T17:20:49.327Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 16 — ok (16.0)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:21:49.327Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 16.3 — ok (16.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:22:49.328Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 16.5 — ok (16.5)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:23:49.329Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 15.5 — ok (15.5)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:24:49.329Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 12.6 — ok (12.6)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:25:49.329Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 14.1 — ok (14.1)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:26:49.330Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 14.1 — ok (14.1)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:27:49.333Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 13.4 — ok (13.4)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:28:49.407Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 15.9 — ok (15.9)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:29:49.408Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 15.4 — ok (15.4)
+[tp-sl] Done — checked 1, closed 0
+[telegram] Status sent
+
+[2026-06-28T17:30:49.410Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 12.9 — ok (12.9)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:31:49.412Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 12.7 — ok (12.7)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:32:49.412Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 11.9 — ok (11.9)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:33:49.413Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 14.2 — ok (14.2)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:34:49.414Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 14.6 — ok (14.6)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:35:49.416Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 14.4 — ok (14.4)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:36:49.416Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 14.7 — ok (14.7)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:37:49.422Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 14.5 — ok (14.5)
+[tp-sl] Done — checked 1, closed 0
+════════════════════════════════════════
+  TP/SL Bot — Meteora DLMM Monitor
+════════════════════════════════════════
+  RPC:        https://mainnet.helius-rpc.com...
+  SL:         -10%
+  RSI TP:     > 90 (15m, period 2)
+  OOR below:  on
+  Monitor:    every 60s
+  Telegram:   status every 10m
+  Dry run:    no
+════════════════════════════════════════
+
+[telegram] Bot ready — chat 1389206094
+[telegram] Status sent
+[telegram] Polling for commands every 5s
+
+[2026-06-28T17:38:04.477Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 25.3 — ok (25.3)
+[tp-sl] Done — checked 1, closed 0
+[tp-sl] Monitoring every 60s
+[tp-sl] Status reports every 10m
+
+
+[2026-06-28T17:39:04.890Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 20.1 — ok (20.1)
+[tp-sl] Done — checked 1, closed 0
+[telegram] Status sent
+
+[2026-06-28T17:40:04.893Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 25.4 — ok (25.4)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:41:04.893Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 35.3 — ok (35.3)
+[tp-sl] Done — checked 1, closed 0
+
+[2026-06-28T17:42:04.893Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 36.6 — ok (36.6)
+[tp-sl] Done — checked 1, closed 0
+════════════════════════════════════════
+  TP/SL Bot — Meteora DLMM Monitor
+════════════════════════════════════════
+  RPC:        https://mainnet.helius-rpc.com...
+  SL:         -10%
+  RSI TP:     > 90 (15m, period 2)
+  OOR below:  on
+  Monitor:    every 60s
+  Telegram:   status every 10m
+  Dry run:    no
+════════════════════════════════════════
+
+[telegram] Bot ready — chat 1389206094
+[telegram] Status sent
+[telegram] Polling for commands every 5s
+
+[2026-06-28T17:42:38.691Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  RTM/SOL        RSI 23.7 — ok (23.7)
+[tp-sl] Done — checked 1, closed 0
+[tp-sl] Monitoring every 60s
+[tp-sl] Status reports every 10m
+

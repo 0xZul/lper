@@ -14,6 +14,7 @@
 
 import { getOpenPositions, closePosition } from "./meteora.js";
 import { checkRSI } from "./indicator.js";
+import { autoSwapToSol } from "./swap.js";
 import { config } from "./config.js";
 
 // ─── Callback hooks ─────────────────────────────────────────────
@@ -137,6 +138,11 @@ export async function runCycle() {
         const closeData = buildCloseData(p, reason);
         closed.push(closeData);
         console.log(`[tp-sl]   ✓ closed${result.dry_run ? " (dry run)" : ""}`);
+
+        // Auto-swap base token → SOL
+        if (!result.dry_run && p.base_mint) {
+          await autoSwapToSol(p.base_mint, p.pair);
+        }
 
         // Immediate close notification (always send)
         if (_onClose) {
