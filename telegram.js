@@ -125,11 +125,11 @@ function formatCloseNotification(data) {
 // ─── /close command: interactive position list ─────────────────
 function formatClosePicker(positions) {
   if (!positions || positions.length === 0) {
-    return "No open positions.";
+    return "No open positions\\.";
   }
 
   const lines = positions.map((p, i) => {
-    return `${i + 1}\\. ${p.pair} — PnL: ${formatPnL(p.pnl_pct)}`;
+    return `${escapeMD(String(i + 1))}\\. ${escapeMD(p.pair)} — PnL: ${escapeMD(formatPnL(p.pnl_pct))}`;
   });
 
   return "📋 **Active Positions**\n\n" + lines.join("\n") + "\n\n_Reply with position number to close\\._";
@@ -232,12 +232,7 @@ export async function handleMessage(msg) {
           positions = await _getPositionsFn();
         }
         const pickerText = formatClosePicker(positions);
-        // Escape for MarkdownV2
-        const safe = pickerText
-          .replace(/\./g, "\\.")
-          .replace(/\-/g, "\\-")
-          .replace(/\!/g, "\\!");
-        await _bot.sendMessage(_chatId, safe, { parse_mode: "MarkdownV2" });
+        await _bot.sendMessage(_chatId, pickerText, { parse_mode: "MarkdownV2" });
       } catch (err) {
         await _bot.sendMessage(_chatId, `Error: ${err.message}`);
       }
