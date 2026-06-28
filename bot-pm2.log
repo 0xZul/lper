@@ -1,0 +1,23 @@
+════════════════════════════════════════
+  TP/SL Bot — Meteora DLMM Monitor
+════════════════════════════════════════
+  RPC:        https://mainnet.helius-rpc.com...
+  SL:         -10%
+  RSI TP:     > 90 (1h, period 2)
+  OOR below:  on
+  Monitor:    every 60s
+  Telegram:   status every 10m
+  Dry run:    no
+════════════════════════════════════════
+
+[telegram] Bot ready — chat 1389206094
+[telegram] Status sent
+[telegram] Polling for commands every 5s
+
+[2026-06-28T13:01:48.306Z] ── TP/SL check ──
+[tp-sl] Checking 1 position(s)...
+  Jotchua/SOL    RSI 55.9 — ok (55.9)
+[tp-sl] Done — checked 1, closed 0
+[tp-sl] Monitoring every 60s
+[tp-sl] Status reports every 10m
+

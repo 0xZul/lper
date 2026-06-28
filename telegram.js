@@ -17,6 +17,7 @@ let _bot = null;
 let _chatId = null;
 let _closeFn = null;        // injected close function
 let _getPositionsFn = null; // injected getPositions function
+let _awaitingCloseConfirm = false; // waiting for user to reply with position number after /close picker
 
 // ─── Init ───────────────────────────────────────────────────────
 export function init({ token, chatId, closeFn, getPositionsFn }) {
@@ -135,6 +136,50 @@ function formatClosePicker(positions) {
   return "📋 **Active Positions**\n\n" + lines.join("\n") + "\n\n_Reply with position number to close\\._";
 }
 
+// ─── Close position by list index ──────────────────────────────
+async function closeByIndex(idx) {
+  if (!_getPositionsFn || !_closeFn) {
+    await _bot.sendMessage(_chatId, "Bot not fully initialized.");
+    return;
+  }
+
+  try {
+    const positions = await _getPositionsFn();
+    if (idx < 0 || idx >= positions.length) {
+      await _bot.sendMessage(_chatId, `Invalid position number. Use 1–${positions.length}.`);
+      return;
+    }
+
+    const p = positions[idx];
+    const reason = "MANUAL_CLOSE";
+
+    const result = await _closeFn(p.position, reason, p.pool);
+
+    if (result.success || result.dry_run) {
+      let finalPnl = p.pnl_pct;
+      try {
+        const refreshed = await _getPositionsFn();
+        const found = refreshed.find((rp) => rp.position === p.position);
+        if (found) finalPnl = found.pnl_pct;
+      } catch {}
+
+      await sendCloseNotification({
+        pair: p.pair,
+        pnl_pct: finalPnl,
+        reason,
+        lower_bin: p.lower_bin,
+        upper_bin: p.upper_bin,
+        active_bin: p.active_bin,
+        timestamp: new Date().toISOString().slice(0, 16).replace("T", " "),
+      });
+    } else {
+      await _bot.sendMessage(_chatId, `❌ Close failed: ${result.error || "unknown"}`);
+    }
+  } catch (err) {
+    await _bot.sendMessage(_chatId, `❌ Error: ${err.message}`);
+  }
+}
+
 // ─── Public API ─────────────────────────────────────────────────
 
 /**
@@ -218,14 +263,23 @@ export async function handleMessage(msg) {
   // Only respond to authorized chat
   if (fromId !== String(_chatId)) return;
 
+  // ── Numeric reply after /close picker ────────────────────────
+  if (_awaitingCloseConfirm) {
+    _awaitingCloseConfirm = false;
+    const num = parseInt(text, 10);
+    if (Number.isFinite(num)) {
+      await closeByIndex(num - 1);
+    }
+    return;
+  }
+
   // ── /close command ──────────────────────────────────────────
   if (text === "/close" || text?.startsWith("/close")) {
-    // Check if there's a number after /close (e.g., "/close 1")
     const parts = text.split(/\s+/);
     const num = parseInt(parts[1], 10);
 
     if (!Number.isFinite(num)) {
-      // Show position picker
+      // Show position picker + await numeric reply
       try {
         let positions = [];
         if (_getPositionsFn) {
@@ -233,56 +287,14 @@ export async function handleMessage(msg) {
         }
         const pickerText = formatClosePicker(positions);
         await _bot.sendMessage(_chatId, pickerText, { parse_mode: "MarkdownV2" });
+        _awaitingCloseConfirm = true;
       } catch (err) {
         await _bot.sendMessage(_chatId, `Error: ${err.message}`);
       }
       return;
     }
 
-    // Close position by index
-    if (!_getPositionsFn || !_closeFn) {
-      await _bot.sendMessage(_chatId, "Bot not fully initialized.");
-      return;
-    }
-
-    try {
-      const positions = await _getPositionsFn();
-      const idx = num - 1;
-
-      if (idx < 0 || idx >= positions.length) {
-        await _bot.sendMessage(_chatId, `Invalid position number. Use 1–${positions.length}.`);
-        return;
-      }
-
-      const p = positions[idx];
-      const reason = "MANUAL_CLOSE";
-
-      const result = await _closeFn(p.position, reason, p.pool);
-
-      if (result.success || result.dry_run) {
-        // Re-fetch to get final PnL
-        let finalPnl = p.pnl_pct;
-        try {
-          const refreshed = await _getPositionsFn();
-          const found = refreshed.find((rp) => rp.position === p.position);
-          if (!found) finalPnl = p.pnl_pct; // position gone → use last known
-          else finalPnl = found.pnl_pct;
-        } catch {}
-
-        await sendCloseNotification({
-          pair: p.pair,
-          pnl_pct: finalPnl,
-          reason,
-          lower_bin: p.lower_bin,
-          upper_bin: p.upper_bin,
-          active_bin: p.active_bin,
-          timestamp: new Date().toISOString().slice(0, 16).replace("T", " "),
-        });
-      } else {
-        await _bot.sendMessage(_chatId, `❌ Close failed: ${result.error || "unknown"}`);
-      }
-    } catch (err) {
-      await _bot.sendMessage(_chatId, `❌ Error: ${err.message}`);
-    }
+    // Direct /close 1
+    await closeByIndex(num - 1);
   }
 }
