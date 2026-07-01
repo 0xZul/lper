@@ -174,9 +174,11 @@ async function closeByIndex(idx) {
         timestamp: new Date().toISOString().slice(0, 16).replace("T", " "),
       });
 
-      // Auto-swap base token → SOL
+      // Auto-swap base token → SOL (non-blocking)
       if (p.base_mint) {
-        await autoSwapToSol(p.base_mint, p.pair);
+        autoSwapToSol(p.base_mint, p.pair).catch((e) =>
+          console.error(`[tp-sl] auto-swap failed: ${e.message}`)
+        );
       }
     } else {
       await _bot.sendMessage(_chatId, `❌ Close failed: ${result.error || "unknown"}`);

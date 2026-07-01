@@ -139,15 +139,17 @@ export async function runCycle() {
         closed.push(closeData);
         console.log(`[tp-sl]   ✓ closed${result.dry_run ? " (dry run)" : ""}`);
 
-        // Auto-swap base token → SOL
-        if (!result.dry_run && p.base_mint) {
-          await autoSwapToSol(p.base_mint, p.pair);
-        }
-
-        // Immediate close notification (always send)
+        // Immediate close notification (always send first)
         if (_onClose) {
           await _onClose(closeData).catch((e) =>
             console.error(`[tp-sl] onClose hook failed: ${e.message}`)
+          );
+        }
+
+        // Auto-swap base token → SOL (after notification, non-blocking)
+        if (!result.dry_run && p.base_mint) {
+          autoSwapToSol(p.base_mint, p.pair).catch((e) =>
+            console.error(`[tp-sl] auto-swap failed: ${e.message}`)
           );
         }
       } else {

@@ -120,11 +120,19 @@ export async function swapToSol(inputMint, amount) {
 
 /**
  * Auto-swap all of a token to SOL (if balance > 0).
+ * Retries balance check — RPC may need a moment to index post-close token accounts.
  */
 export async function autoSwapToSol(baseMint, label = "") {
-  const balance = await getTokenBalance(baseMint);
+  // Retry balance check up to 5 times (RPC indexing delay after close)
+  let balance = 0;
+  for (let i = 0; i < 5; i++) {
+    balance = await getTokenBalance(baseMint);
+    if (balance > 0) break;
+    if (i < 4) await new Promise(r => setTimeout(r, 2000));
+  }
+
   if (balance <= 0) {
-    console.log(`[swap] ${label} — no ${baseMint.slice(0, 8)} balance`);
+    console.log(`[swap] ${label} — no ${baseMint.slice(0, 8)} balance after retries`);
     return null;
   }
 
